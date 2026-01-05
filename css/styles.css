@@ -291,10 +291,30 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .container-team-section {
   padding: 32px 16px;
+}
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.social-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.portfolio-list-icon {
+  fill: #f4f4fd;
 }
 
 /* --------секція портфоліо------- */
@@ -349,6 +369,7 @@ button:focus {
 
   transform: translateY(100%);
   transition: transform 250ms ease-in-out;
+  padding: 40px 32px;
 }
 
 .portfolio-position:hover .overlay {
