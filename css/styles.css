@@ -248,6 +248,15 @@ button:focus {
   width: calc((100% - 3 * 24px) / 4);
 }
 
+.feature-border {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  padding: 24px 100px;
+}
+
 /* --------секція команда------- */
 
 .team-section {
@@ -305,16 +314,13 @@ button:focus {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  fill: #f4f4fd;
 }
 
 .social-list {
   display: flex;
   gap: 24px;
   justify-content: space-between;
-}
-
-.portfolio-list-icon {
-  fill: #f4f4fd;
 }
 
 /* --------секція портфоліо------- */
@@ -390,6 +396,23 @@ button:focus {
   padding-top: 100px;
 
   padding-bottom: 100px;
+}
+
+.social-footer-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+}
+.footer-logo-div {
+  margin-right: 120px;
 }
 
 /* домашнє завдання 3 */
