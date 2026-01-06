@@ -28,7 +28,7 @@ ol {
   padding-left: 0;
 }
 
-.img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -196,12 +196,14 @@ ol {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/hero-image.jpg);
+    url(../images/hero-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   padding: 188px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .button {
@@ -421,8 +423,19 @@ button:focus {
   display: flex;
   align-items: baseline;
 }
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
 .footer-logo-div {
   margin-right: 120px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
 }
 
 .footer-social-list-link:hover,
